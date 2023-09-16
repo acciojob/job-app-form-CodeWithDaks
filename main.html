@@ -9,7 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js"></script>
-  <form method="post">
+  <form id="my-form" method="post">
 	<div>
 		<label for="name">Name:</label>
 		<input type="text" id="name" required>
@@ -23,9 +23,14 @@
 	
 	<div>
         <label for="gender">Gender:</label>
-		 Male:<input type="radio" name="gender"> 
-         Female:<input type="radio" name="gender">
-         Other:<input type="radio" name="gender">
+		<label for="gender">Male</label>
+		 <input type="radio" name="gender"> 
+
+		<label for="gender">Female</label>
+         <input type="radio" name="gender">
+
+		<label for="gender">Other</label>
+         <input type="radio" name="gender">
     </div><br>
 
 
@@ -60,15 +65,7 @@
 
 	   <div>
 		
-		<button value="button">Submit</button>
-	</div>
-
-
-	
-
-
-
-
+		<button value="button">Submit</button></div>
 	</form>
 </body>
 
